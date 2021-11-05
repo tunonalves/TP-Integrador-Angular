@@ -7,6 +7,7 @@ import { ProductAMDComponent } from './ProductManagement/product-amd/product-amd
 import { ProductListComponent } from './ProductManagement/product-list/product-list.component';
 import { UserstListComponent } from './UsersManagement/userst-list/userst-list.component';
 import { UsersamdComponent } from './UsersManagement/usersamd/usersamd.component';
+import { DashboardComponent } from './Main/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { UsersamdComponent } from './UsersManagement/usersamd/usersamd.component
     ProductListComponent,
     UserstListComponent,
     UsersamdComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
