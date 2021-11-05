@@ -3,18 +3,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { UsersComponent } from './users/users.component';
-import { ProductsComponent } from './products/products.component';
-import { ProductsCategoryComponent } from './products-category/products-category.component';
-import { UserTypeComponent } from './user-type/user-type.component';
+import { ProductAMDComponent } from './ProductManagement/product-amd/product-amd.component';
+import { ProductListComponent } from './ProductManagement/product-list/product-list.component';
+import { UserstListComponent } from './UsersManagement/userst-list/userst-list.component';
+import { UsersamdComponent } from './UsersManagement/usersamd/usersamd.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent,
-    ProductsComponent,
-    ProductsCategoryComponent,
-    UserTypeComponent
+    ProductAMDComponent,
+    ProductListComponent,
+    UserstListComponent,
+    UsersamdComponent,
   ],
   imports: [
     BrowserModule,
