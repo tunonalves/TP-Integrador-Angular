@@ -8,6 +8,10 @@ import { ProductListComponent } from './ProductManagement/product-list/product-l
 import { UserstListComponent } from './UsersManagement/userst-list/userst-list.component';
 import { UsersamdComponent } from './UsersManagement/usersamd/usersamd.component';
 import { DashboardComponent } from './Main/dashboard/dashboard.component';
+import { CategoryProductListComponent } from './ProductManagement/category-product-list/category-product-list.component';
+import { CategoryProductAmdComponent } from './ProductManagement/category-product-amd/category-product-amd.component';
+import { UsersTypeListComponent } from './ProductManagement/users-type-list/users-type-list.component';
+import { UsersTypeAmdComponent } from './ProductManagement/users-type-amd/users-type-amd.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { DashboardComponent } from './Main/dashboard/dashboard.component';
     UserstListComponent,
     UsersamdComponent,
     DashboardComponent,
+    CategoryProductListComponent,
+    CategoryProductAmdComponent,
+    UsersTypeListComponent,
+    UsersTypeAmdComponent,
   ],
   imports: [
     BrowserModule,
